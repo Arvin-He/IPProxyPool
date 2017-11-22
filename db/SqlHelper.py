@@ -8,9 +8,9 @@ from config import DB_CONFIG, DEFAULT_SCORE
 from db.ISqlHelper import ISqlHelper
 
 '''
-sql操作的基类
-包括ip，端口，types类型(0高匿名，1透明)，protocol(0 http,1 https http),country(国家),area(省市),updatetime(更新时间)
- speed(连接速度)
+sql操作的基类包括:
+ip，端口，types类型(0高匿名，1透明)，protocol(0 http,1 https http),
+country(国家),area(省市),updatetime(更新时间),speed(连接速度)
 '''
 
 BaseModel = declarative_base()
